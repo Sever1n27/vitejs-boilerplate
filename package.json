@@ -9,7 +9,8 @@
         "preview": "vite preview",
         "prepare": "husky install",
         "lint": "eslint './src/**/*.{js,ts,tsx}' --fix",
-        "prettier": "prettier --write ./src"
+        "prettier": "prettier --write ./src",
+        "test": "jest"
     },
     "dependencies": {
         "effector": "^22.3.0",
