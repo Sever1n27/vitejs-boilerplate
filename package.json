@@ -9,7 +9,7 @@
         "preview": "vite preview",
         "prepare": "husky install",
         "lint": "eslint './src/**/*.{js,ts,tsx}' --fix",
-        "prettier": "prettier --write ./src",
+        "prettify": "prettier --write ./src",
         "test": "jest"
     },
     "dependencies": {
@@ -51,9 +51,11 @@
         "vite": "^3.2.2"
     },
     "lint-staged": {
-        "*.{js, ts, tsx}": [
-            "eslint '**/*.{js,ts,tsx}' --quiet --fix",
-            "prettier --write ."
+        "*.{js,ts,tsx}": [
+            "eslint './src/**/*.{js,ts,tsx}' --fix"
+        ],
+        "*.{js,ts,tsx,json}": [
+            "prettier --write ./src"
         ]
     }
 }
