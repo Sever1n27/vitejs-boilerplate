@@ -17,19 +17,19 @@
         "effector-react": "^22.3.4",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-router": "^6.4.2",
-        "react-router-dom": "^6.4.2"
+        "react-router": "^6.4.3",
+        "react-router-dom": "^6.4.3"
     },
     "devDependencies": {
-        "@commitlint/cli": "^17.1.2",
-        "@commitlint/config-conventional": "^17.1.0",
-        "@types/jest": "^29.2.0",
-        "@types/node": "^18.11.7",
+        "@commitlint/cli": "^17.2.0",
+        "@commitlint/config-conventional": "^17.2.0",
+        "@types/jest": "^29.2.1",
+        "@types/node": "^18.11.9",
         "@types/react": "^18.0.24",
         "@types/react-dom": "^18.0.8",
         "@types/react-router-dom": "^5.3.3",
-        "@typescript-eslint/eslint-plugin": "^5.41.0",
-        "@typescript-eslint/parser": "^5.41.0",
+        "@typescript-eslint/eslint-plugin": "^5.42.0",
+        "@typescript-eslint/parser": "^5.42.0",
         "@vitejs/plugin-react": "^2.2.0",
         "eslint": "^8.26.0",
         "eslint-config-airbnb": "^19.0.4",
@@ -48,7 +48,7 @@
         "ts-jest": "^29.0.3",
         "ts-node": "^10.9.1",
         "typescript": "^4.8.4",
-        "vite": "^3.2.0"
+        "vite": "^3.2.2"
     },
     "lint-staged": {
         "*.{js, ts, tsx}": [
